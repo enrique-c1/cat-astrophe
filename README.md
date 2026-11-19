@@ -57,13 +57,6 @@ All gameplay numbers live in `src/config.js` (classes, bots, events, difficulty 
 Measured dash ratios (walking time / dash timer): easy 0.36-0.38 (target <= 0.40),
 normal 0.49-0.53 (<= 0.55), hard 0.62-0.67 (<= 0.70).
 
-## Deploy to Netlify
-
-Option A (build from source): upload `netlify-ready-game.zip` at https://app.netlify.com/drop.
-`netlify.toml` runs `npm run build` and publishes `dist/`.
-
-Option B (no build step): upload `cat-astrophe-site-dist.zip`, which is the built site.
-
 ## Known limitations
 
 - No sound or music yet; no mute toggle.
